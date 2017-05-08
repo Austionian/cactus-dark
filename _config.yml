@@ -13,15 +13,15 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/pip-head.png
         gravatar: false
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon.ico
+        url: /images/pip-head.png
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/pip-head.png
         gravator: false
       apple:
         url: /images/apple-touch-icon.png
