@@ -11,17 +11,17 @@ customize:
         email:
     logo:
         enabled: true
-        width: 50
-        height: 50
-        url: /images/pip-head.png
+        width: 75
+        height: 75
+        url: /images/pip-head2.png
         gravatar: false
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/pip-head.png
+        url: /images/pip-head2.png
         gravatar: false
       android:
-        url: /images/pip-head.png
+        url: /images/pip-head2.png
         gravator: false
       apple:
         url: /images/pip-eight.png
