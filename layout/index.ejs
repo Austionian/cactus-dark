@@ -1,4 +1,4 @@
-<section id="about">
+<section class="about-writing" id="about">
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
@@ -14,7 +14,7 @@
   </p>
 </section>
 
-<section id="writing">
+<section class="about-writing" id="writing">
   <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>
