@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" class="margin-left">
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
@@ -14,7 +14,7 @@
   </p>
 </section>
 
-<section id="writing">
+<section id="writing" class="margin-left">
   <span class="h1"><a href="<%- url_for("archives") %>">Writing</a></span>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>
@@ -35,7 +35,7 @@
 </section>
 
 <% if (site.data.projects) { %>
-<section id="projects">
+<section id="projects" class="margin-left">
   <span class="h1"><a href="<%- url_for(theme.projects_url) %>">Projects</a></span>
   <ul class="project-list">
     <% for(var obj in site.data.projects){ %>

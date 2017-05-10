@@ -11,8 +11,8 @@ customize:
         email:
     logo:
         enabled: true
-        width: 58
-        height: 58
+        width: 60
+        height: 60
         url: /images/pip-head2.png
         gravatar: false
     favicon:
